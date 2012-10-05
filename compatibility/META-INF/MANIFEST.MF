@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Compatibility Plug-in
+Bundle-SymbolicName: compatibility
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.rap.ui;bundle-version="1.1.1";resolution:=optional;visibility:=reexport,
+ org.eclipse.ui;bundle-version="3.4.1";resolution:=optional;visibility:=reexport,
+ org.eclipse.core.runtime;bundle-version="3.4.0",
+ org.eclipse.osgi.services;bundle-version="3.3.0"
+Export-Package: demo
+Import-Package: javax.servlet,
+ javax.servlet.http
