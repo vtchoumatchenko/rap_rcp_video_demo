@@ -5,13 +5,13 @@ import java.net.ServerSocket;
 import java.util.Dictionary;
 
 import org.eclipse.equinox.http.jetty.JettyCustomizer;
-import org.mortbay.jetty.Connector;
+import org.eclipse.jetty.server.Connector;
 
 /**
  * Jetty connectors customizer. Used to set the port number.
  * <p>
  * The following VM argument is required:
- * org.eclipse.equinox.http.jetty.customizer.class=demo.Customizer
+ * org.eclipse.equinox.http.jetty.customizer.class=demo.DemoJettyCustomizer
  */
 public class DemoJettyCustomizer extends JettyCustomizer {
 

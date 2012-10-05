@@ -6,8 +6,7 @@
       <entrypoint
             class="demo.EntryPoint"
             id="demo.rap.entrypoint"
-            parameter="demo"
-        >
+            path="/demo">
       </entrypoint>
    </extension>
 </fragment>
